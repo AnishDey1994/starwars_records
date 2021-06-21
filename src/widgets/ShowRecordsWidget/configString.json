@@ -1,0 +1,35 @@
+{
+    "recordData": {
+        "tableHeader": [
+            "Icon",
+            "Name",
+            "Birth Year",
+            "Gender",
+            "Height",
+            "Mass",
+            "Skin color",
+            "Hair color",
+            "Eye color",
+            "Created",
+            "Edited"
+        ]
+    },
+    "sortOption": [
+        {
+            "name": "Sort by name ascending",
+            "value": "name-ascending"
+        },
+        {
+            "name": "Sort by name descending",
+            "value": "name-descending"
+        },
+        {
+            "name": "Sort by height ascending",
+            "value": "height-ascending"
+        },
+        {
+            "name": "Sort by height descending",
+            "value": "height-descending"
+        }
+    ]
+}

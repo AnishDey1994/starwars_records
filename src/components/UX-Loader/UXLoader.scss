@@ -1,0 +1,71 @@
+.loaderWrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
+.loader {
+    background-color: red;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.loader:before {
+    content: "";
+    position: absolute;
+    left: -3em;
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.loader:after {
+    content: "";
+    position: absolute;
+    left: 3em;
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.fullPageOverlay {
+    background: radial-gradient(rgba(20, 20, 20, 0.8), rgba(0, 0, 0, 0.8));
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.imgLoaderWrapper {
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    z-index: 999;
+}
+.imgLoader {
+    width: 100px;
+    height: 100px;
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+    .imgLoader {
+        width: 150px;
+        height: 150px;
+    }
+    .imgLoaderWrapper {
+        left: 40%;
+    }
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    .imgLoaderWrapper {
+        left: 40%;
+    }
+}

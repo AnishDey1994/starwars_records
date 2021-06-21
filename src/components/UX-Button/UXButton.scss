@@ -1,0 +1,97 @@
+.btn {
+    display: inline-block;
+    width: inherit;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-clean {
+    color: black;
+    background-color: transparent !important;
+    border-color: #007bff !important;
+}
+.template2Btn {
+    position: relative;
+    left: 35%;
+    top: -500px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffa46b !important;
+    border-color: #ffa46b !important;
+    border-radius: 0s;
+    color: white !important;
+    font-size: 15px;
+    @media screen and (max-width: 768px) {
+        left: 25%;
+        top: -135px;
+        width: 200px;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+        left: 36%;
+        top: -255px;
+    }
+    &:hover{
+        background-color: red;
+    }
+}
+.toTopBtn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffa46b !important;
+    color: white !important;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.toTopBtn:hover {
+    background-color: orangered !important;
+}
+.show {
+    display: block !important;
+}
+.hide {
+    display: none !important;
+}

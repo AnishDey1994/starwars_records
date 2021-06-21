@@ -1,0 +1,23 @@
+$background: #00356b;
+$text: #fff;
+
+.App {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background: $background;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+#mainContent {
+	padding-top: 50px;
+	color: $text;
+}
+//for tablet
+@media screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+}
+//for mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+}
